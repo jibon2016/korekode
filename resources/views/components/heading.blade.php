@@ -1,0 +1,1 @@
+<h5 class="text-center text-blue-900 text-3xl font-semibold py-5">{{ $slot }}</h5>
