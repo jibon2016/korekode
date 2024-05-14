@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('author');
             $table->text('description');
             $table->string('image');
+            $table->boolean('status');
             $table->timestamps();
             
         });

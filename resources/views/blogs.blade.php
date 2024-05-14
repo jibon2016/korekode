@@ -3,13 +3,10 @@
     <x-page-heading>Blogs</x-page-heading>
 
     <section class="m-10 text-black">
-        <div class="flex flex-wrap items-center">
-            <x-blog />
-            <x-blog />
-            <x-blog />
-            <x-blog />
-            <x-blog />
-            <x-blog />
+        <div class="flex flex-wrap items-start">
+            @foreach ($blogs as $blog )
+                <x-blog :$blog />
+            @endforeach
         </div>
     </section>
 </x-layout>

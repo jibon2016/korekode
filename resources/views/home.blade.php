@@ -12,12 +12,16 @@
   <section class="p-5 text-black">
     <x-heading>Our Services</x-heading>
     <div class="flex flex-row content-center items-center flex-wrap">
-      <x-service />
-      <x-service />
-      <x-service />
-      <x-service />
-      <x-service />
-      <x-service />
+      <x-service>Graphic Design</x-service>
+      <x-service>UI/UX Design </x-service>
+      <x-service>Video Editing</x-service>
+      <x-service>Website Development</x-service>
+      <x-service>Apps Development</x-service>
+      <x-service>Digital Marketing</x-service>
+      <x-service>Search Engine Optimization</x-service>
+      <x-service>DevOps Service</x-service>
+      <x-service>Cyber Security</x-service>
+      <x-service>IT Consultancy</x-service>
     </div>
   </section>
   <section class="p-5 text-black">
@@ -55,10 +59,10 @@
 
   <section class="m-10 text-black">
     <x-heading>Blogs</x-heading>
-    <div class="flex flex-wrap justify-between items-center">
-      <x-blog />
-      <x-blog />
-      <x-blog />
+    <div class="flex items-start">
+      @foreach ($blogs as $blog )
+        <x-blog :$blog />
+      @endforeach
     </div>
   </section>
 
