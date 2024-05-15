@@ -59,7 +59,7 @@
 
   <section class="m-10 text-black">
     <x-heading>Articles</x-heading>
-    <div class="flex items-start flex-wrap">
+    <div class="flex items-start justify-between lg:flex-row flex-col flex-wrap">
       @foreach ($blogs as $blog )
         <x-blog :$blog />
       @endforeach
