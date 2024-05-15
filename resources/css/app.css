@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.ml15 {
+/* .ml15 {
   font-weight: 800;
   font-size: 3.8em;
   text-transform: uppercase;
@@ -12,4 +12,4 @@
 .ml15 .word {
   display: inline-block;
   line-height: 1em;
-}
+} */

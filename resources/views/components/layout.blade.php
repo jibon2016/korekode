@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">                           
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <!-- Font Awsome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
@@ -26,7 +26,7 @@
         <div>
             {{ $slot }}
         </div>
-                
+
         {{-- Footer Section Start--}}
         <section class="px-16 py-5 bg-footer-bg">
             <div class="flex flex-wrap max-lg:flex-col max-lg:items-center justify-between">
@@ -47,13 +47,13 @@
                 </div>
                 <div class="basis-[33.33%] px-5">
                     <div class="flex flex-col items-start gap-2">
-                    <h5 class="text-2xl font-semibold py-2">Quick Links</h5>
+                    <h5 class="text-2xl font-semibold py-2">Our Concerns</h5>
                     <a href="https://korefacilitation.com/"><i class="fa-solid fa-link mr-2"></i> Kore Facilitation </a>
                     <a href="https://koresearch.net/"><i class="fa-solid fa-link mr-2"></i> Kore Search </a>
                     <a href="http://digiworldltd.com/"><i class="fa-solid fa-link mr-2"></i> DG World </a>
                     </div>
                 </div>
-                <div class="basis-[33.33%] px-5">
+                <div id="contact-us" class="basis-[33.33%] px-5">
                     <h5 class="text-2xl font-semibold py-2">Request A Call Back</h5>
                     <p class="text-xs">Leave your contact details and we will contact you shortly.</p>
                     <form action="" method="post">
@@ -81,7 +81,7 @@
             </div>
         </section>
         {{-- Footer Section End--}}
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" ></script>
         <!-- Custom Js -->
@@ -105,6 +105,6 @@
                 delay: 2000
             });
         </script>
-        
+
     </body>
 </html>

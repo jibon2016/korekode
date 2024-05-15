@@ -1,9 +1,9 @@
-<nav class="bg-blue-900/70 flex items-center justify-between px-12 h-16 lg:gap-8 lg:fixed lg:top-0 lg:w-full z-[99]">
-    <a href="/" class="bg-white">
-        <img class="w-64 border-2 p-2" src="{{ asset('images/korekode_logo.png') }}" alt="">
+<nav class="bg-navbar-bg flex items-center justify-between px-12 h-16 lg:gap-8 lg:fixed lg:top-0 lg:w-full z-[99]">
+    <a href="/" class="">
+        <img class="w-64 p-2" src="{{ asset('images/korekode_logo.png') }}" alt="">
     </a>
 
-    <div class="dropdown-menu -top-full absolute left-0 max-lg:bg-blue-900/50 w-full flex flex-col gap-6 py-2 items-center text-lg font-bold lg:static lg:flex-row lg:justify-end">
+    <div class="dropdown-menu -top-full absolute left-0 text-blue-950 max-lg:bg-blue-900/50 w-full flex flex-col gap-6 py-2 items-center text-lg font-bold lg:static lg:flex-row lg:justify-end">
         <ul class="flex flex-col items-center gap-2 lg:flex-row lg:gap-8 max-lg:w-full">
             <li class="hover:text-gray-300 "><a href="/">Home</a></li>
             <li  class="group hover:text-gray-300 flex max-lg:flex-col max-lg:text-center lg:justify-between items-center py-5 cursor-pointer max-lg:w-full">
@@ -22,11 +22,11 @@
                     <li class="text-white hover:text-gray-200 px-5 py-2 hover:bg-black border-b border-white/30"><a href="/services">IT Consultancy</a></li>
                 </ul>
             </li>
-            <li  class="hover:text-gray-300 "><a href="/blogs">Blogs</a></li>
+            <li  class="hover:text-gray-300 "><a href="/blogs">Articles</a></li>
             <li  class="hover:text-gray-300 "><a href="/about-us">About Us</a></li>
         </ul>
         <div class="flex flex-col items-center gap-6 ">
-            <a href="" class="bg-slate-900 px-2 py-1 border border-white hover:bg-white hover:text-black">Get a Question</a>
+            <a href="#contact-us" class="text-blue-700 px-2 py-1 rounded animate-pulse bg-white">Contact</a>
         </div>
     </div>
     <div class="toggle-btn lg:hidden">

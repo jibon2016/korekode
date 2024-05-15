@@ -1,6 +1,6 @@
 <x-layout>
     <x-navbar />
-    <x-page-heading>Blogs</x-page-heading>
+    <x-page-heading>Articles</x-page-heading>
 
     <section class="m-10 text-black">
         <div class="flex flex-wrap items-start">
