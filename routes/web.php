@@ -39,6 +39,8 @@ Route::get('/storage-link', function(){
     return back();
 });
 
+// for_Test
+
 Route::middleware('auth')->prefix('admin')->group(function(){
     Route::get('/blogs', [BlogController::class, 'index'])->name('admin.blogs');
     Route::get('/add-blog', [BlogController::class, 'add'])->name('admin.blog.add');
