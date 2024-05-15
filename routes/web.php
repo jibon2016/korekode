@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ProfileController;
 use App\Models\Blog;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -33,6 +34,10 @@ Route::get('blog/{blog}', function (Blog $blog) {
     ]);
 });
 
+Route::get('/storage-link', function(){
+    Artisan::call('storage:link');
+    return back();
+});
 
 Route::middleware('auth')->prefix('admin')->group(function(){
     Route::get('/blogs', [BlogController::class, 'index'])->name('admin.blogs');
