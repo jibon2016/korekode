@@ -16,8 +16,9 @@
             </div>
             <div class="max-lg:basis-full lg:basis-[30%] px-5 py-10">
                 <h4 class="text-xl mb-4 underline">Recent Articles:</h4>
-                <x-recent-blog />
-                <x-recent-blog />
+                @foreach ($blogs as $blog )
+                    <x-recent-blog :$blog />
+                @endforeach
             </div>
         </div>
     </section>

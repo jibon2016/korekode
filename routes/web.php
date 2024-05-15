@@ -29,8 +29,10 @@ Route::get('blogs', function () {
 });
 
 Route::get('blog/{blog}', function (Blog $blog) {
+    $blogs = Blog::latest()->take(2)->get();
     return view('blog', [
-        'blog' => $blog
+        'blog' => $blog,
+        'blogs' => $blogs
     ]);
 });
 
@@ -39,7 +41,6 @@ Route::get('/storage-link', function(){
     return back();
 });
 
-// for_Test
 
 Route::middleware('auth')->prefix('admin')->group(function(){
     Route::get('/blogs', [BlogController::class, 'index'])->name('admin.blogs');
