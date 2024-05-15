@@ -29,7 +29,7 @@ Route::get('blogs', function () {
 });
 
 Route::get('blog/{blog}', function (Blog $blog) {
-    $blogs = Blog::latest()->take(2)->get();
+    $blogs = Blog::latest()->skip(3)->take(2)->get();
     return view('blog', [
         'blog' => $blog,
         'blogs' => $blogs
