@@ -1,8 +1,8 @@
 @props(['blog'])
-<div class="lg:basis-[32.33%] max-lg:basis-[50%]">
+<div class="lg:basis-[32.33%] max-lg:basis-[100%] max-lg:max-w-[100%]">
     <div href="" class="px-4 py-3 border-2 border-gray-300 shadow-lg m-3">
             <a href="/blog/{{$blog->id}}">
-                <img class="h-64 w-full" src="{{ asset('storage/'. $blog->image)}}" alt="">
+                <img class="lg:h-64 h-48 w-full" src="{{ asset('storage/'. $blog->image)}}" alt="">
             </a>
             <div class="my-4">
                 <a href="/blog/{{$blog->id}}"><h4 class="my-2 text-xl font-semibold hover:text-blue-500 hover:underline">{{ \Illuminate\Support\Str::limit($blog->title, 60, ' ...') }}</h4></a>

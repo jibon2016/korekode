@@ -28,10 +28,10 @@
         </div>
 
         {{-- Footer Section Start--}}
-        <section class="px-16 py-5 bg-footer-bg">
-            <div class="flex flex-wrap max-lg:flex-col max-lg:items-center justify-between">
-                <div class="basis-[33.33%] px-5">
-                    <div class="flex flex-col max-lg:items-center gap-2">
+        <section class="lg:px-16 px-10 py-5 bg-footer-bg">
+            <div class="flex flex-wrap max-lg:flex-col justify-between">
+                <div class="basis-[33.33%] lg:px-5 py-2">
+                    <div class="flex flex-col gap-2">
                     <h5 class="text-2xl font-semibold py-2">Get In Touch</h5>
                     <span><i class="fa-solid fa-phone mr-2"></i> +880 2-48813053</span>
                     <span><i class="fa-solid fa-envelope mr-2"></i> info@korekode.net</span>
@@ -45,7 +45,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="basis-[33.33%] px-5">
+                <div class="basis-[33.33%] lg:px-5 py-2">
                     <div class="flex flex-col items-start gap-2">
                     <h5 class="text-2xl font-semibold py-2">Our Concerns</h5>
                     <a href="https://korefacilitation.com/"><i class="fa-solid fa-link mr-2"></i> Kore Facilitation </a>
@@ -53,27 +53,27 @@
                     <a href="http://digiworldltd.com/"><i class="fa-solid fa-link mr-2"></i> DG World </a>
                     </div>
                 </div>
-                <div id="contact-us" class="basis-[33.33%] px-5">
-                    <h5 class="text-2xl font-semibold py-2">Request A Call Back</h5>
+                <div id="contact-us" class="basis-[33.33%] lg:px-5 py-2">
+                    <h5 class="lg:text-2xl text-xl font-semibold py-2">Request A Call Back</h5>
                     <p class="text-xs">Leave your contact details and we will contact you shortly.</p>
                     <form action="" method="post">
                     <div>
                         <div class="py-2">
                         <label for="">Email</label>
                         </div>
-                        <input type="text" class="py-2 px-3 rounded w-[300px] bg-blue-950" placeholder="Email">
+                        <input type="text" class="py-2 px-3 rounded w-auto lg:w-[300px] bg-blue-950" placeholder="Email">
                     </div>
                     <div>
                         <div class="py-2">
                         <label for="">Title</label>
                         </div>
-                        <input type="email" class="py-2 px-3 rounded w-[300px] bg-blue-950" placeholder="Title">
+                        <input type="email" class="py-2 px-3 rounded w-auto lg:w-[300px] bg-blue-950" placeholder="Title">
                     </div>
                     <div>
                         <div class="py-2">
                         <label for="">Description</label>
                         </div>
-                        <textarea class="py-2 px-3 rounded w-[300px] bg-blue-950" cols="10"></textarea>
+                        <textarea class="py-2 px-3 rounded w-auto lg:w-[300px] bg-blue-950" cols="24"></textarea>
                     </div>
                     <button class="mt-4 bg-blue-950 rounded font-semibold text-white p-2">Let's Talk</button>
                     </form>

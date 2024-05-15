@@ -1,8 +1,8 @@
 <x-layout>
-  <header class="bg-header-bg bg-cover bg-center w-full h-screen">
+  <header class="bg-cover bg-center w-full h-screen" style="background-image: url({{asset('images/header_bg.jpg')}})">
     <x-navbar></x-navbar>
     <div class="flex items-center justify-center h-full overflow-hidden" >
-        <h1 class="absolute left-20 bottom-20 text-[4rem] uppercase font-bold">
+        <h1 class="absolute lg:left-20 bottom-28 lg:bottom-20 lg:text-[4rem] text-[2rem] uppercase font-bold">
             <span class="">Think Big, <br></span>
             <span class="">We Will Make IT.<br></span>
             <span class="">Possible!<br></span>
@@ -25,14 +25,14 @@
     </div>
   </section>
   <section class="p-5 text-black">
-    <div class="flex justify-between flex-wrap px-10 max-lg:flex-col">
+    <div class="flex justify-between gap-3 lg:gap-0 flex-wrap  px-5 lg:px-10 max-lg:flex-col">
       <div class="basis-1/2 flex flex-col justify-center">
         <x-heading>Who We Are?</x-heading>
-        <p class="text-justify">Welcome To Kore Kode <br>
+        <p class="text-justify text-sm lg:text-xl">Welcome To Kore Kode <br>
           We’re a team of designers, developers, security specialists and project managers who are committed to developing successful IT services & solutions to help businesses thrive in the digital landscape. With our expertise in design, development, and security, we empower our clients to unlock their full potential and achieve their strategic objectives.</p>
       </div>
       <div class="basis-1/2 flex justify-center">
-        <img class="h-[400px]" src="{{ asset('images/about-us.jpg')}}" alt="">
+        <img class="h-[300px] lg:h-[400px]" src="{{ asset('images/about-us.jpg')}}" alt="">
       </div>
     </div>
   </section>
@@ -59,7 +59,7 @@
 
   <section class="m-10 text-black">
     <x-heading>Articles</x-heading>
-    <div class="flex items-start">
+    <div class="flex items-start flex-wrap">
       @foreach ($blogs as $blog )
         <x-blog :$blog />
       @endforeach

@@ -1,14 +1,6 @@
 {
-  "public/images/blog-bg.jpg": {
-    "file": "assets/blog-bg-VX4RlnMB.jpg",
-    "src": "public/images/blog-bg.jpg"
-  },
-  "public/images/header_bg.jpg": {
-    "file": "assets/header_bg-D2qjTpAo.jpg",
-    "src": "public/images/header_bg.jpg"
-  },
   "resources/css/app.css": {
-    "file": "assets/app-Dg06r7hE.css",
+    "file": "assets/app-CfyGen_J.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
