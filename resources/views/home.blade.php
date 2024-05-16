@@ -2,7 +2,7 @@
   <header class="bg-cover bg-center w-full h-screen" style="background-image: url({{asset('images/header_bg.jpg')}})">
     <x-navbar></x-navbar>
     <div class="flex items-center justify-center h-full overflow-hidden" >
-        <h1 class="absolute lg:left-20 bottom-28 lg:bottom-20 lg:text-[4rem] text-[2rem] uppercase font-bold">
+        <h1 class="absolute z-[90] lg:left-20 bottom-28 lg:bottom-20 lg:text-[4rem] text-[2rem] uppercase font-bold">
             <span class="">Think Big, <br></span>
             <span class="">We Will Make IT.<br></span>
             <span class="">Possible!<br></span>

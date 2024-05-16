@@ -3,13 +3,13 @@
         <img class="w-64 p-2" src="{{ asset('images/korekode_logo.png') }}" alt="">
     </a>
 
-    <div class="dropdown-menu -top-full absolute left-0 text-blue-950 max-lg:bg-blue-900/50 w-full flex flex-col gap-6 py-2 items-center text-lg font-bold lg:static lg:flex-row lg:justify-end">
-        <ul class="flex flex-col items-center gap-2 lg:flex-row lg:gap-8 max-lg:w-full">
+    <div class="dropdown-menu absolute lg:top-[16px] top-16 left-0 text-blue-950 max-lg:bg-white/50 w-full lg:flex flex-col gap-6 py-2 items-center text-lg font-bold lg:static lg:flex-row lg:justify-end hidden">
+        <ul class="flex flex-col items-center gap-4 lg:flex-row lg:gap-8 max-lg:w-full ">
             <li class="hover:text-gray-300 "><a href="/">Home</a></li>
-            <li  class="group hover:text-gray-300 flex max-lg:flex-col max-lg:text-center lg:justify-between items-center py-5 cursor-pointer max-lg:w-full">
+            <li  class="group hover:text-gray-300 flex max-lg:flex-col max-lg:text-center lg:justify-between items-center lg:py-5 cursor-pointer max-lg:w-full ">
                 <a href="">Services</a>
                 <i class="fa-solid fa-chevron-down lg:ml-3 fa-xs mt-1"></i>
-                <ul class="lg:absolute lg:top-[64px] max-lg:w-full max-lg:mt-5 bg-blue-900/50 -ml-3 group-hover:block hidden">
+                <ul class="lg:absolute lg:top-[64px] z-[99] max-lg:w-full max-lg:mt-5 bg-blue-900/50 -ml-3 group-hover:block hidden">
                     <li class="text-white hover:text-gray-200 px-5 py-2 hover:bg-black border-b border-white/30"><a href="/services">Graphic Design </a></li>
                     <li class="text-white hover:text-gray-200 px-5 py-2 hover:bg-black border-b border-white/30"><a href="/services">UI/UX Design </a></li>
                     <li class="text-white hover:text-gray-200 px-5 py-2 hover:bg-black border-b border-white/30"><a href="/services">Video Editing</a></li>
@@ -25,11 +25,11 @@
             <li  class="hover:text-gray-300 "><a href="/blogs">Articles</a></li>
             <li  class="hover:text-gray-300 "><a href="/about-us">About Us</a></li>
         </ul>
-        <div class="flex flex-col items-center gap-6 ">
-            <a href="#contact-us" class="text-blue-700 px-2 py-1 rounded animate-pulse bg-white">Contact</a>
+        <div class="flex flex-col items-center gap-6 mt-3 lg:mt-0">
+            <a href="#contact-us" class="text-blue-700 px-2 py-1  rounded animate-pulse bg-white">Contact</a>
         </div>
     </div>
     <div class="toggle-btn lg:hidden">
-        <i class="fa-solid fa-bars fa-lg"></i>
+        <i class="fa-solid fa-bars fa-lg text-blue-950"></i>
     </div>
 </nav>
